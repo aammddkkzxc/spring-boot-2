@@ -30,7 +30,7 @@ task buildJar(type: Jar) {
     with jar
 }
 
-//Fat Jar 생성
+//Fat Jar 생성 //
 task buildFatJar(type: Jar) {
     manifest {
         attributes 'Main-Class': 'hello.embed.EmbedTomcatSpringMain'
